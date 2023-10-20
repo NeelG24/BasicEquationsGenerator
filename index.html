@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
+    <title>Arcade Math!</title>
   </head>
   <body>
+    <button class="btn again">Restart!</button>
+    <button class="btn start flash-green">Start</button>
     <header>
-      <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 10)</p>
-      <button class="btn again">Restart!</button>
-      <button class="btn start">Start</button>
+      <h1>Arcade Math</h1>
       <div class="equation">?</div>
     </header>
     <main>
@@ -31,10 +30,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
-<!-- Convert into a simple equations generator:
-1. Use equation class to display each simple equation
-2. Create some sort of start button to initiaite the game.
-3. Change scoring system to the amount correct in a row, starting at zero.
-4. Change the message to display correct and incorrect, and the color accordingly. 
-5. Potentially incorporate a custom range of numbers using between class.-->
